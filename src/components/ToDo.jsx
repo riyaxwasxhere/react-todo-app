@@ -23,7 +23,7 @@ const ToDo = () => {
   }
 
   const handleAdd = ()=>{
-    if(inputVal === ''){
+    if(inputVal.trim() === ''){
       alert("You must write something!")
       return
     }
